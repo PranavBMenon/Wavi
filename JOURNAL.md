@@ -22,3 +22,12 @@ Today in the morning i had a grueling realisation the thing is that the square w
 ![opamp square wave sim](images/opamp_square_wave_sim.jpg)
 
 **Total time spent: 6 hours**
+
+# October 27: square wave works partially at leasr
+
+Today i leared about equation for the relaxation oscillator and tuned it to the frequency i needed i am going to use a 2 capacitor system which can be switched using a 3 way switch also a 100k potentiometer.i made the breadboard prototype today and as i lacked a oscilloscope i cold only blink a led in periodic intervals with it though that worked out fine.i am planning to test it with an oscilloscope soon.another thing i wanted to shine some light on was the situation surrouding powersupply as im very much inexperinces with ac and transforers also the fact that its dangerous i am not using an ac source and a center tapped tranformer to generate the -ve and +ve voltags i need another this is that after some research i found out that charge pumps are also not viable as they have a rating of 50mA max and i was skeptical about the range.finallu i decided to use 2 batteries joied end to end such that the -ve end is in contact wwith the +ve end and one end i took as +ve the other -ve and the centerpoint as ground.which i then passed to 2 boost converters i have lying around to step up to 5v as lm358 has a range of 4.5v to 16v
+
+![Relaxation_oscillator_schema](images/relaxation_osciallator_schema.jpeg)
+![Square wave Prototype](images/Square_wave_prototype.jpeg)
+
+**Total time spent: 4 hours**
